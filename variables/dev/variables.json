@@ -1,0 +1,11 @@
+{
+  "env": "dev",
+  "gcs_bucket": "asia-east1-airflow-test-f872f771-bucket",
+  "bq_project": "banded-anvil-358303",
+  "bq_dataset": "flight_data_dev",
+  "tables": {
+    "transformed_table": "transformed_flight_data_dev",
+    "route_insights_table": "route_insights_dev",
+    "origin_insights_table": "origin_insights_dev"
+  }
+}
