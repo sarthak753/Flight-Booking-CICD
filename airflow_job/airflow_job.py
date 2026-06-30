@@ -60,7 +60,7 @@ with DAG(
         "environment_config": {
             "execution_config": {
                 # Replace with your Composer environment’s service account
-                "service_account": "airflow-test@banded-anvil-358303.iam.gserviceaccount.com",
+                "service_account": "192429778648-compute@developer.gserviceaccount.com",
                 "network_uri": "projects/banded-anvil-358303/global/networks/default",
                 "subnetwork_uri": "projects/banded-anvil-358303/regions/asia-east1/subnetworks/default",
             }
