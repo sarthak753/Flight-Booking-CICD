@@ -1,6 +1,6 @@
 {
   "env": "prod",
-  "gcs_bucket": "asia-east1-airflow-prod-f872f771-bucket",
+  "gcs_bucket": "asia-east1-airflow-prod-4ad5a0d2-bucket",
   "bq_project": "banded-anvil-358303",
   "bq_dataset": "flight_data_prod",
   "tables": {
