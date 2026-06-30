@@ -41,7 +41,7 @@ with DAG(
         poke_interval=30,
         mode="poke",
     )
-
+    service_account = Variable.get("service_account")
     batch_details = {
         "pyspark_batch": {
             "main_python_file_uri": f"gs://{gcs_bucket}/airflow-project-1/spark-job/spark_transformation_job.py",
@@ -60,7 +60,7 @@ with DAG(
         "environment_config": {
             "execution_config": {
                 # Replace with your Composer environment’s service account
-                "service_account": "192429778648-compute@developer.gserviceaccount.com",
+                "service_account": service_account,
                 "network_uri": "projects/banded-anvil-358303/global/networks/default",
                 "subnetwork_uri": "projects/banded-anvil-358303/regions/asia-east1/subnetworks/default",
             }
