@@ -1,4 +1,4 @@
-# Flight Booking Data Pipeline 🚀
+# Flight Booking Data Pipeline 
 
 ## Overview
 End‑to‑end pipeline for flight booking analytics using:
@@ -12,7 +12,7 @@ Raw flight booking data (CSV) is ingested, transformed with PySpark, and loaded 
 
 ---
 
-## 📊 Simple Architecture
+##  Simple Architecture
 ```mermaid
 flowchart LR
     GitHubDev[GitHub - dev branch] --> AirflowDev[Airflow - Dev]
